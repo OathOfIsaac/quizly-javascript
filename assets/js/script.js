@@ -1,9 +1,12 @@
+// html elements
 var getButtonEl = document.querySelector("#start-button")
 var getTimerEl = document.querySelector("#count-down")
 
+// interval elements
 let i = 30
 let q = 0
 
+// functions
 var startGame=function() {
     console.log("game has started")
     countDown()
@@ -20,7 +23,7 @@ nextQ.onClick = () => {
     }
 }
 
-
+// question repository
 const questionArray= [
     {question:"How would one declare a string variable?",
      answers:["A. Var name = 'John'", "B. Var names = '7'" , "C. Var firstname = new String('John')" , "D. Any of these" ], 
@@ -65,6 +68,7 @@ const questionArray= [
 
  ]
 
+// timer function
 var countDown = setInterval(function() {
     if (i > 0) {
     i--;
@@ -76,4 +80,5 @@ var countDown = setInterval(function() {
     
 )
 
+//event listener <button> html
 getButtonEl.addEventListener("click", startGame())

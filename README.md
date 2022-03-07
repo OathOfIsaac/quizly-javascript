@@ -1,7 +1,5 @@
-# quizly-javascript
-
-#Welcome To Quizly
-##JavaScript Edition
+# Welcome To Quizly
+## JavaScript Edition
 
 A quiz oriented way to study! Do as many questions as you can before the timer counts down. Do all of them before the quiz timer runs out and become a javascript master!
 
